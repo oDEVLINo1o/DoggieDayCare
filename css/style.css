@@ -1,0 +1,180 @@
+/* Global */
+
+html {
+    font-size: 16px;
+    font-family: "Permanent Marker";
+}
+
+
+h1 {
+    text-shadow: 2px 2px 2px white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 0 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 2px red;
+}
+
+.imgcontainer {
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+}
+
+header img {
+    height: 5rem;
+    width: 10rem;
+
+}
+
+nav {
+    align-self: center;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+ /* Banner */
+
+.banner {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+    padding: 1rem 0;
+}
+
+.banner h1 {
+    font-size: 5rem;
+    font-family: "Permanent Marker";
+    padding: 0 0.5rem;
+}
+
+.banner p {
+    font-size: 2rem;
+    margin-top: 0;
+    padding: 0 0.5rem 2rem 0.5rem;
+
+}
+
+/* Walks */
+
+.walks {
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.walkPics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.walks p {
+    font-size: 2rem;
+    margin: 2rem 1rem;
+}
+
+/* Love */
+
+.love {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.lovePics {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.love p {
+    font-size: 2rem;
+    margin: 2rem 1rem;
+}
+
+/* Sitters */
+
+.sit {
+    text-align: center;
+    color: red;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.sitters {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 1rem 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+}
